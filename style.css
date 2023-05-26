@@ -26,7 +26,7 @@ main {
   width: 100%;
 }
 
-#label-family {
+#label-family-list {
   display: flex;
   flex-direction: column;
 }
@@ -44,4 +44,17 @@ main {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+}
+
+.name-lastname {
+  display: flex;
+}
+
+.email-house {
+  display: flex;
+}
+
+#label-family {
+  display: flex;
+  margin-top: 20px;
 }
