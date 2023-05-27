@@ -1,10 +1,57 @@
+body {
+  background-color: rgb(197, 196, 196);
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email p , .password p {
+  margin: 0;
+}
+
+.trybewarts-header-logo {
+  width: 60px;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+#input-user , #input-password {
+  width: 120px;
+  height: 20px;
+  background-color: rgb(197, 196, 196);
+  border-color: rgb(197, 196, 196);
+  border-radius: 9px;
+  margin-right: 15px;
+
+}
+
+#btn-login {
+  width: 120px;
+  height: 24px;
+  background-color: rgb(123, 48, 194);
+  border-radius: 9px;
+  margin: 15px 0 0;
+  color: white;
 }
 
 .trybewarts-login {
   display: flex;
+  align-items: center;
+}
+
+.title-av {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
 }
 
 #evaluation-form {
@@ -13,17 +60,36 @@
   flex-direction: column;
 }
 
+.name-lastname {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+#input-name , #input-lastname , #input-email , #house {
+  width: 230px;
+  border-radius: 5px;
+  border-color: rgb(197, 196, 196);
+}
+
+.email-house {
+  display: flex;
+}
+
 main {
   display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 0 0 19%;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
-}
-
-.break {
-  height: 0;
-  width: 100%;
 }
 
 #label-family-list {
@@ -31,8 +97,20 @@ main {
   flex-direction: column;
 }
 
+#house {
+  width: 237px;
+  height: 21px;
+}
+
+.linguagem {
+  justify-content: space-between;
+}
+
 #textarea-style {
-  background-color: rgba(162, 177, 203, 0.369);
+  background-color: white;
+  width: 65%;
+  border-radius: 9px;
+  border-color: rgb(123, 48, 194);
 }
 
 #label-infos {
@@ -40,21 +118,34 @@ main {
   flex-direction: row;
 }
 
-#trybewarts-logo-colorida {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-}
-
-.name-lastname {
-  display: flex;
-}
-
-.email-house {
-  display: flex;
+#label-rate {
+  font-size: 14pt;
 }
 
 #label-family {
   display: flex;
   margin-top: 20px;
+  font-size: 14pt;
+}
+
+
+#submit-btn {
+  width: 66%;
+  height: 25px;
+  background-color: rgb(123, 48, 194);
+  border-radius: 9px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.footer {
+  background-color: grey;
+  color: white;
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+}
+
+aside {
+  margin: 5% 19% 0 0;
 }
